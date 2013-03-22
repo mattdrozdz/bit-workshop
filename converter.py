@@ -11,10 +11,6 @@ def main():
 	drawer.draw(text)
 
 def getText():
-    if len(sys.argv) != 1:
-        print "Bad arguments"
-        sys.exit(1)
-
     return sys.argv[0]
 
 if __name__ == '__main__':
